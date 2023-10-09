@@ -1,0 +1,77 @@
+body {
+    /* background-image: url('https://th.bing.com/th?id=OIP.KG5G8STGZCwq40zER9MQ5QHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+.converter {
+    background-image: url('https://img.freepik.com/free-photo/3d-render-thermometer-show-hot-cold-temperature_107791-17373.jpg?size=626&ext=jpg');
+    /* background-color: aqua; */
+    border-radius: 16px;
+    position: relative;
+    top: 200px;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 24px;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 26px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+.equals {
+    font-size: 24px;
+    margin: 0 10px;
+}
+#fromUnit{
+    border-radius: 7px;
+    font-size: 24px;
+    width: 240px;
+    margin-top: 20px;
+}
+#temperatureInput{
+    width: 230px;
+}
+#temperatureInput,#convertButton,#result{
+    border-radius: 7px;
+    font-size: 24px;
+    width: 230px;
+}
+#convertButton{
+    padding-right: 50px;
+    margin-top: 20px;
+}
+#toUnit{
+    border-radius: 7px;
+}
+#convertButton:hover{
+    color:violet;
+}
